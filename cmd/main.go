@@ -7,7 +7,9 @@ import (
 )
 
 type result struct {
-	url string `json:"url"`
+	url         string `json:"url"`
+	description string `json:"description"`
+	query       string `json:"query"`
 }
 
 func main() {
